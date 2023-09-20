@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/dcvgK5B/Rectangle-2-2.png",
+      "course_name": "Introduction to C Programming",
+      "details": "Learn the basics of programming with this introductory course.",
+      "credit_hour": 3,
+      "price": 199.99
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/FY50RcH/Rectangle-2.png",
+      "course_name": "Web Development Fundamentals",
+      "details": "Build a strong foundation in web development.",
+      "credit_hour": 4,
+      "price": 249.99
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/grjtvMD/Rectangle-2-1.png",
+      "course_name": "Data Science for Beginners",
+      "details": "Dive into the world of data science and analytics.",
+      "credit_hour": 5,
+      "price": 299.99
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/X2xwbCT/Rectangle-2-3.png",
+      "course_name": "Graphic Design Essentials",
+      "details": "Master the art of graphic design with practical exercises.",
+      "credit_hour": 3,
+      "price": 199.99
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/CPxC8Ck/Rectangle-2-4.png",
+      "course_name": "Advanced JavaScript Programming",
+      "details": "Take your JavaScript skills to the next level.",
+      "credit_hour": 4,
+      "price": 249.99
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/fDncc23/Rectangle-2-5.png",
+      "course_name": "Machine Learning Fundamentals",
+      "details": "Explore the fundamentals of machine learning and AI.",
+      "credit_hour": 5,
+      "price": 299.99
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/XCg3c2r/Rectangle-2-6.png",
+      "course_name": "Digital Marketing Strategy",
+      "details": "Learn to create effective digital marketing campaigns.",
+      "credit_hour": 3,
+      "price": 199.99
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/sQdkYDT/Rectangle-3.png",
+      "course_name": "Mobile App Development",
+      "details": "Build your own mobile apps for iOS and Android.",
+      "credit_hour": 4,
+      "price": 249.99
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/H76LfRn/Rectangle-3-1.png",
+      "course_name": "Cybersecurity Essentials",
+      "details": "Protect computer systems and networks from cyber threats.",
+      "credit_hour": 5,
+      "price": 299.99
+    }
+  ]
+  
