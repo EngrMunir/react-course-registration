@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
+import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handleBookmark}) => {
     const {img, course_name, details, credit_hour, price}=blog;
     return (
         <div className="mb-10">
@@ -9,9 +10,12 @@ const Blog = ({blog}) => {
             <p><small>{details}</small></p>
             <div className="flex justify-evenly">
                 <p>Price:{price}</p>
-                <p>Credit:{credit_hour}</p>
+                <div className='flex gap-2'>
+                    <FaBookmark></FaBookmark>
+                    <p>Credit:{credit_hour}</p>
+                </div>
             </div>
-            <button>Select</button>
+            <button onClick={()=>handleBookmark(blog)}>Select</button>
         </div>
     );
 };

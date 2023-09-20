@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 
-const Bookmarks = () => {
+const Bookmarks = ({bookmarks}) => {
     return (
         <div className="md:w-1/3">
-            <h2>Bookmark section</h2>
+            <h2>Bookmark:{bookmarks.length}</h2>
         </div>
     );
 };
