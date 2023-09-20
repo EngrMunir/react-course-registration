@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='md:flex'>
+      <div className='md:flex ml-5 gap-4'>
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
