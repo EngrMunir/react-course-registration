@@ -9,6 +9,7 @@ const [bookmarks, setBookmarks]=useState([])
   const handleBookmark=blog=>{
       const newBlog = [...bookmarks,blog];
       setBookmarks(newBlog);
+      
 }
 
   return (
