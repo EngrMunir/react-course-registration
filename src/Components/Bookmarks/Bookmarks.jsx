@@ -1,17 +1,12 @@
 /* eslint-disable react/prop-types */
 
-import { useState } from "react";
 import Bookmark from "../Bookmark/Bookmark";
 
 const Bookmarks = ({bookmarks}) => {
 let price=0;
 let remainHour=20;
 let totalHour=0;
-const {selected, setSelected}=useState({})
  bookmarks.forEach(item => {
-    if(selected.id!=item.id){
-        setSelected(item);
-    }
     price=price+ item.price;
     remainHour=remainHour-item.credit_hour;
     totalHour=totalHour+item.credit_hour;    

@@ -15,7 +15,7 @@ const Blog = ({blog, handleBookmark}) => {
                     <p>Credit:{credit_hour}</p>
                 </div>
             </div>
-            <button onClick={()=>handleBookmark(blog) } >Select</button>
+            <button className='bg-blue-600 w-full text-white' onClick={()=>handleBookmark(blog) } >Select</button>
         </div>
     );
 };
