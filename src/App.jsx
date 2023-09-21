@@ -4,13 +4,12 @@ import Blogs from './Components/Blogs/Blogs'
 import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
-
 const [bookmarks, setBookmarks]=useState([])
 
   const handleBookmark=blog=>{
-    const newBlog = [...bookmarks,blog];
-    setBookmarks(newBlog);
-  }
+      const newBlog = [...bookmarks,blog];
+      setBookmarks(newBlog);
+}
 
   return (
     <>
